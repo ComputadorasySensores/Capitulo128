@@ -1,7 +1,7 @@
 import machine, network, urequests
 from machine import Pin, I2C, ADC
 import time
-import bme280
+import bme280_float as bme280
 from ssd1306 import SSD1306_I2C
 
 ssid = 'turedwifi'
